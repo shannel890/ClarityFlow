@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Clarityflow",
+  title: "ClarityFlow",
   description: "Scaffolded healthcare SaaS landing page structure.",
 };
 
