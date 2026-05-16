@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ClarityFlow",
-  description:
-    "Conceptual healthcare AI workflow assistant focused on reducing documentation overload and improving clinical productivity.",
+  title: "Clarityflow",
+  description: "Scaffolded healthcare SaaS landing page structure.",
 };
 
 export default function RootLayout({
@@ -13,8 +13,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className="min-h-full bg-surface-50 font-sans text-slate-900">{children}</body>
+    <html lang="en">
+      <body>
+        <Navbar />
+        <div className="mx-auto max-w-5xl px-4 py-8">{children}</div>
+      </body>
     </html>
   );
 }
