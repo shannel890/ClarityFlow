@@ -1,72 +1,126 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  show:   { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+} as const;
+
+const cardFade = {
+  hidden: { opacity: 0, y: 20 },
+  show:   { opacity: 1, y: 0, transition: { duration: 0.7, delay: 0.2, ease: "easeOut" } },
+} as const;
+
 export default function Hero() {
   return (
-    <section className="bg-slate-50 px-6 py-14 md:px-10">
-      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 md:items-center">
-        <div className="space-y-6">
-          <h1 className="text-3xl font-semibold tracking-tight text-slate-900 md:text-5xl">
-            Spend less time charting and more time with patients.
-          </h1>
-          <p className="max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
-            ClarityFlow organizes clinical notes, tasks, and follow-ups into one
-            AI-assisted workflow so care teams can stay focused on care quality.
+    <section className="bg-[#FAFAF8] px-6 py-20 md:px-10">
+      <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-2 md:items-center">
+
+        {/* Left — copy */}
+        <motion.div
+          className="space-y-6"
+          initial="hidden"
+          animate="show"
+          variants={fadeUp}
+        >
+          <p className="text-xs font-medium uppercase tracking-[0.15em] text-teal-400">
+            AI-powered clinical workflow
           </p>
-          <div className="flex flex-wrap gap-3">
+          <h1 className="font-serif text-5xl leading-[1.1] tracking-tight text-stone-900 md:text-[52px]">
+            Spend less time charting, more time with{" "}
+            <em className="italic text-teal-600">patients.</em>
+          </h1>
+          <p className="max-w-md text-base leading-relaxed text-stone-600 md:text-[17px]">
+            ClarityFlow organizes clinical notes, tasks, and follow-ups into one
+            AI-assisted layer — so care teams stay focused on what matters.
+          </p>
+          <div className="flex flex-wrap gap-3 pt-1">
             <button
               type="button"
-              className="rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700"
+              className="rounded-lg bg-teal-600 px-6 py-3 text-sm font-medium text-white transition-all hover:-translate-y-px hover:bg-teal-800"
             >
-              Start Free Trial
+              Start free trial
             </button>
             <button
               type="button"
-              className="rounded-md border border-slate-300 bg-transparent px-5 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-100"
+              className="rounded-lg border border-stone-200 bg-transparent px-5 py-3 text-sm font-medium text-stone-600 transition-colors hover:border-stone-400 hover:text-stone-900"
             >
-              Watch Overview
+              Watch overview →
             </button>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-          <div className="space-y-4">
-            <div className="rounded-lg border border-slate-200 p-4">
-              <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-                Patient Summary
+        {/* Right — patient card */}
+        <motion.div
+          className="overflow-hidden rounded-2xl border border-stone-100 bg-white shadow-card"
+          initial="hidden"
+          animate="show"
+          variants={cardFade}
+        >
+          {/* Card chrome bar */}
+          <div className="flex items-center gap-2 border-b border-[#CCEADF] bg-teal-50 px-5 py-3">
+            <span className="h-2.5 w-2.5 rounded-full bg-[#F5A7A7]" />
+            <span className="h-2.5 w-2.5 rounded-full bg-[#FACA75]" />
+            <span className="h-2.5 w-2.5 rounded-full bg-[#97C459]" />
+            <span className="ml-2 text-xs font-medium text-teal-800">
+              Patient Summary
+            </span>
+          </div>
+
+          <div className="space-y-4 p-5">
+            {/* Patient info */}
+            <div>
+              <span className="inline-block rounded-full bg-teal-50 px-3 py-1 text-[11px] font-medium text-teal-800">
+                Post-op · Day 3
+              </span>
+              <p className="mt-2 text-base font-medium text-stone-900">
+                Maria Jensen
               </p>
-              <p className="mt-2 text-sm font-medium text-slate-900">
-                Maria Jensen · Post-op day 3
-              </p>
-              <p className="mt-1 text-sm text-slate-600">
-                Recovery stable, pain level decreasing, discharge planning in
-                progress.
+              <p className="text-sm text-stone-500">
+                General Surgery · Dr. Patel
               </p>
             </div>
 
-            <div className="rounded-lg border border-slate-200 p-4">
-              <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-                Daily Tasks
-              </p>
-              <ul className="mt-2 space-y-2 text-sm text-slate-700">
-                <li>• Review overnight labs</li>
-                <li>• Update care note for rounds</li>
-                <li>• Confirm medication reconciliation</li>
-              </ul>
+            {/* Summary */}
+            <div className="rounded-lg border-l-[3px] border-teal-400 bg-stone-50 px-4 py-3 text-sm leading-relaxed text-stone-700">
+              Recovery stable, pain level decreasing. Discharge planning in
+              progress. Medication reconciliation pending sign-off.
             </div>
 
-            <div className="rounded-lg border border-slate-200 p-4">
-              <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-                Follow-up Reminders
-              </p>
-              <div className="mt-2 flex items-center justify-between rounded-md bg-emerald-50 px-3 py-2">
-                <span className="text-sm text-slate-700">
-                  Call patient within 48 hours
-                </span>
-                <span className="text-xs font-medium text-emerald-700">
-                  On Track
-                </span>
-              </div>
+            {/* Tasks */}
+            <ul className="divide-y divide-stone-100">
+              {[
+                { label: "Review overnight labs", done: true },
+                { label: "Update care note for rounds", done: false },
+                { label: "Confirm medication reconciliation", done: false },
+              ].map((task) => (
+                <li key={task.label} className="flex items-center gap-3 py-2.5">
+                  <span
+                    className={`flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full text-[9px] font-bold ${
+                      task.done
+                        ? "bg-teal-400 text-white"
+                        : "border-[1.5px] border-stone-200"
+                    }`}
+                  >
+                    {task.done && "✓"}
+                  </span>
+                  <span className="text-sm text-stone-700">{task.label}</span>
+                </li>
+              ))}
+            </ul>
+
+            {/* Follow-up */}
+            <div className="flex items-center justify-between rounded-lg border border-[#D5F0E6] bg-white px-4 py-2.5">
+              <span className="text-sm text-stone-600">
+                Call patient within 48 hrs
+              </span>
+              <span className="rounded-full bg-teal-50 px-3 py-1 text-[11px] font-medium text-teal-800">
+                On track
+              </span>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

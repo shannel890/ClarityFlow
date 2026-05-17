@@ -11,7 +11,7 @@ import TrustSection from "@/components/TrustSection";
 
 export default function Home() {
   return (
-    <main className="space-y-6">
+    <main>
       <Navbar />
       <Hero />
       <ProblemSection />
