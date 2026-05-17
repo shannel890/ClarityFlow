@@ -9,30 +9,37 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: "#edf5ff",
-          100: "#d9eaff",
-          500: "#2563eb",
-          600: "#1d4ed8",
+        teal: {
+          50:  "#E1F5EE",
+          100: "#9FE1CB",
+          200: "#5DCAA5",
+          400: "#1D9E75",
+          600: "#0F6E56",
+          800: "#085041",
+          900: "#04342C",
         },
-        ink: {
-          700: "#334155",
-          800: "#1e293b",
+        stone: {
+          50:  "#F1EFE8",
+          100: "#D3D1C7",
+          200: "#B4B2A9",
+          400: "#888780",
+          600: "#5F5E5A",
+          800: "#444441",
+          900: "#2C2C2A",
         },
-        surface: {
-          50: "#f8fafc",
-          100: "#f1f5f9",
-        },
-      },
-      borderRadius: {
-        card: "1.125rem",
-      },
-      boxShadow: {
-        card: "0 10px 30px rgba(15, 23, 42, 0.08)",
-        soft: "0 20px 50px rgba(37, 99, 235, 0.12)",
       },
       fontFamily: {
-        sans: ["Inter", "Segoe UI", "Roboto", "Helvetica", "Arial", "sans-serif"],
+        sans:  ["DM Sans", "system-ui", "sans-serif"],
+        serif: ["DM Serif Display", "Georgia", "serif"],
+      },
+      borderRadius: {
+        card: "0.75rem",
+        xl:   "1rem",
+        "2xl":"1.25rem",
+      },
+      boxShadow: {
+        card: "0 4px 32px rgba(0,0,0,0.06)",
+        soft: "0 6px 24px rgba(0,0,0,0.07)",
       },
     },
   },
