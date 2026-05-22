@@ -36,7 +36,10 @@ export default function ProjectsSection() {
                   {project.title}
                 </h3>
                 {project.badge && (
-                  <span className="rounded-full bg-teal-50 px-3 py-1 text-[11px] font-medium text-teal-800">
+                  <span
+                    className="rounded-full bg-teal-50 px-3 py-1 text-[11px] font-medium text-teal-800"
+                    aria-label={`Project status: ${project.badge}`}
+                  >
                     {project.badge}
                   </span>
                 )}
