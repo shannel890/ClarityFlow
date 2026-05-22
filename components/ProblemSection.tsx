@@ -16,7 +16,7 @@ const problems = [
   {
     num: "03",
     title: "Constant context switching",
-    desc: "Clinicians switch between tabs, systems, and threads just to complete a single workflow, increasing cognitive load and error risk.",
+    desc: "Clinicians switch between tabs, systems, and threads just to complete a single workflow, creating coordination gaps and increasing cognitive load.",
   },
   {
     num: "04",

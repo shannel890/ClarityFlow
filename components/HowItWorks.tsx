@@ -20,9 +20,9 @@ export default function HowItWorks() {
       id: "03",
       title: "Start your day with clarity",
       description:
-        "Review AI-prepared summaries, priority items, and follow-ups at the start of each shift or clinic session.",
+        "Review workflow-prepared summaries, priority items, and follow-ups at the start of each shift or clinic session.",
       reassurance:
-        "You remain in control of what is accepted, edited, or ignored before anything is used in practice.",
+        "You remain in control while ClarityFlow supports workflow orchestration, escalation visibility, and team coordination.",
     },
   ];
 

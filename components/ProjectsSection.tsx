@@ -3,7 +3,7 @@ export default function ProjectsSection() {
     {
       title: "ClarityFlow",
       summary:
-        "AI-assisted clinical workflow platform that helps care teams organize notes, tasks, and follow-ups with less documentation friction.",
+        "Clinical workflow orchestration platform that helps care teams coordinate notes, tasks, and follow-ups with stronger operational visibility.",
       badge: "Flagship project",
     },
     {

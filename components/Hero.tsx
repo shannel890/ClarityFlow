@@ -25,7 +25,7 @@ export default function Hero() {
           variants={fadeUp}
         >
           <p className="text-xs font-medium uppercase tracking-[0.15em] text-teal-400">
-            AI-powered clinical workflow
+            Clinical workflow orchestration
           </p>
           <h1 className="font-serif text-5xl leading-[1.1] tracking-tight text-stone-900 md:text-[52px]">
             A clinician workflow cockpit for less after-hours charting and fewer

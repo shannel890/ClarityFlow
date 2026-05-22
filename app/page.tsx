@@ -10,6 +10,7 @@ import ProblemSection from "@/components/ProblemSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SolutionSection from "@/components/SolutionSection";
 import TrustSection from "@/components/TrustSection";
+import WorkflowScenariosSection from "@/components/WorkflowScenariosSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ClinicalStackSection />
+      <WorkflowScenariosSection />
       <ProjectsSection />
       <ProblemSection />
       <SolutionSection />

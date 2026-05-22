@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="space-y-2">
             <p className="text-base font-semibold text-slate-900">ClarityFlow</p>
             <p className="text-sm text-slate-700">
-              AI assistant for clinical workflow clarity.
+              Clinical workflow intelligence for operational coordination.
             </p>
           </div>
 

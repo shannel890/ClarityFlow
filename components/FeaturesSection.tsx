@@ -17,14 +17,14 @@ export default function FeaturesSection() {
     {
       title: "Keep follow-ups from being missed",
       description:
-        "ClarityFlow extracts tasks and follow-up needs from inbox messages, visit outcomes, and care coordination threads.",
+        "ClarityFlow extracts tasks and follow-up needs from inbox messages, visit outcomes, and care coordination threads for reliable task prioritization.",
       benefit:
         "Clinicians lower cognitive load and maintain safer, more reliable next steps.",
     },
     {
       title: "Hand over care with fewer gaps",
       description:
-        "For transitions, ClarityFlow creates a clean handover summary with active issues, pending actions, and recent decisions.",
+        "For care transitions, ClarityFlow creates a clean handover summary with active issues, pending actions, and recent decisions.",
       benefit:
         "Incoming clinicians get oriented faster with fewer missed details.",
     },
