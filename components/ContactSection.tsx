@@ -39,6 +39,7 @@ export default function ContactSection() {
                 href="https://www.linkedin.com/in/kevin-kirui-ba9593275/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn (opens in a new tab)"
                 className="block text-teal-700 transition-colors hover:text-teal-900"
               >
                 LinkedIn
@@ -47,6 +48,7 @@ export default function ContactSection() {
                 href="https://github.com/arapkirui513-hub"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub (opens in a new tab)"
                 className="block text-teal-700 transition-colors hover:text-teal-900"
               >
                 GitHub
