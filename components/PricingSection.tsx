@@ -4,9 +4,9 @@ export default function PricingSection() {
       name: "Individual Clinician",
       price: "$39 / month",
       description:
-        "For solo clinicians who want a reliable daily brief and task follow-up support.",
+        "For clinicians exploring personal documentation flow, inbox organization, and follow-up workflow habits before team rollout.",
       includes: [
-        "Daily AI summary and priority list",
+        "Daily workflow summary and priority list",
         "Personal workflow and notification preferences",
         "Email and calendar integration placeholders",
       ],
@@ -15,7 +15,7 @@ export default function PricingSection() {
       name: "Clinic / Team",
       price: "$199 / month",
       description:
-        "For shared clinical teams that need consistent handoffs and aligned day-start planning.",
+        "Best for 3–20 clinician teams piloting structured day-start huddles, follow-up tracking, and shared workflow visibility.",
       includes: [
         "Everything in Individual Clinician",
         "Team-level routing and shared follow-up views",
@@ -27,7 +27,7 @@ export default function PricingSection() {
       name: "Enterprise",
       price: "Custom pricing",
       description:
-        "For health systems requiring multi-site governance, security controls, and implementation support.",
+        "Designed for pilot deployments by service line or unit before broader rollout.",
       includes: [
         "Everything in Clinic / Team",
         "Security and compliance review support",
@@ -41,12 +41,13 @@ export default function PricingSection() {
     <section className="bg-white px-6 py-14 md:px-10">
       <div className="mx-auto max-w-6xl space-y-8">
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
-          Simple pricing for clinical teams
+          Directional pilot packaging for clinical teams
         </h2>
 
         <p className="text-sm leading-relaxed text-slate-700">
-          Start with a 14-day trial so your team can evaluate fit before any
-          long-term commitment.
+          These packages are intended for pilot planning and workflow validation.
+          Final deployment scope is aligned to each clinic, service line, or
+          operational unit.
         </p>
 
         <div className="grid gap-4 md:grid-cols-3">

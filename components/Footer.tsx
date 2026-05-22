@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="space-y-2">
             <p className="text-base font-semibold text-slate-900">ClarityFlow</p>
             <p className="text-sm text-slate-700">
-              AI assistant for clinical workflow clarity.
+              Clinical workflow intelligence for operational coordination.
             </p>
           </div>
 
@@ -14,22 +14,27 @@ export default function Footer() {
             <p className="text-sm font-medium text-slate-900">Navigation</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>
-                <a href="#" className="hover:text-slate-900">
-                  Home
+                <a href="#product" className="hover:text-slate-900">
+                  Product
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-900">
-                  Features
+                <a href="#workflow-scenarios" className="hover:text-slate-900">
+                  Workflow Scenarios
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-900">
-                  Pricing
+                <a href="#systems-work" className="hover:text-slate-900">
+                  Systems Work
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-900">
+                <a href="#about" className="hover:text-slate-900">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="hover:text-slate-900">
                   Contact
                 </a>
               </li>
@@ -55,6 +60,11 @@ export default function Footer() {
 
         <p className="text-sm text-slate-600">
           Built to reduce clinical workload and improve focus on patient care.
+        </p>
+        <p className="text-sm text-slate-600">
+          Created by a biomedical engineer working at the intersection of
+          clinical operations, workflow architecture, and AI-assisted healthcare
+          tooling.
         </p>
       </div>
     </footer>

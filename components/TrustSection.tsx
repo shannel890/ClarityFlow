@@ -1,34 +1,34 @@
 export default function TrustSection() {
   const trustStatements = [
     {
-      title: "Clinical judgment stays with the care team",
+      title: "Human-reviewed workflows by design",
       detail:
-        "ClarityFlow supports clinical work and documentation, but final decisions remain with licensed clinicians.",
+        "Workflow outputs are always reviewed by clinicians or designated staff before they are used in live operations.",
     },
     {
-      title: "Every output is reviewable before use",
+      title: "Operational support, not diagnosis",
       detail:
-        "Drafts are presented for clinician review and can be edited before they are saved or shared.",
-    },
-    {
-      title: "Patient data is protected by default",
-      detail:
-        "Data is encrypted in transit and at rest, and patient data is not used to train foundation models.",
+        "ClarityFlow helps coordinate documentation, inbox, follow-up, and handoff work, and does not recommend diagnosis or treatment.",
     },
     {
       title: "No autonomous clinical decision-making",
       detail:
-        "The system does not place orders, diagnose, or execute treatment actions without clinician direction.",
+        "The platform does not place orders, diagnose, or execute treatment actions without clinician direction.",
     },
     {
-      title: "Built to fit institutional safeguards",
+      title: "Privacy-aware workflow design",
       detail:
-        "Workflows are designed to align with healthcare operations, governance, and local policy requirements.",
+        "Designed with HIPAA-aware workflows in mind, with data minimization and practical controls aligned to care operations.",
     },
     {
-      title: "Users retain full control",
+      title: "Encrypted data handling",
       detail:
-        "Clinicians and organizations decide what to accept, revise, or discard at every step.",
+        "Data is encrypted in transit and at rest, and access patterns are designed to support protected healthcare workflows.",
+    },
+    {
+      title: "Role-based workflow visibility",
+      detail:
+        "Teams can align workflow visibility by role so clinicians, managers, and coordinators see the work relevant to their responsibilities.",
     },
   ];
 
