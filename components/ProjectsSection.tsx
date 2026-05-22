@@ -11,7 +11,7 @@ export default function ProjectsSection() {
       summary:
         "A Python-based workflow pipeline that collects, filters, scores, and ranks remote healthcare AI roles.",
       githubUrl:
-        "https://github.com/arapkirui513-hub/-remote-healthai-role-matcher",
+        "https://github.com/arapkirui513-hub/remote-healthai-role-matcher",
     },
     {
       title: "Clinically Clear Copy",
