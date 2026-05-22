@@ -58,12 +58,12 @@ export default function Navbar() {
         </nav>
 
         {/* CTA */}
-        <button
-          type="button"
-          className="rounded-md bg-teal-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-teal-800"
+        <a
+          href="#contact"
+          className="rounded-md bg-teal-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-teal-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAFAF8]"
         >
           Request a workflow pilot
-        </button>
+        </a>
       </div>
     </header>
   );

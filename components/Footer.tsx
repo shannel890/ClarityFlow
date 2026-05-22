@@ -45,12 +45,12 @@ export default function Footer() {
             <p className="text-sm font-medium text-slate-900">Legal</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>
-                <a href="#" className="hover:text-slate-900">
+                <a href="/privacy" className="hover:text-slate-900">
                   Privacy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-900">
+                <a href="/terms" className="hover:text-slate-900">
                   Terms
                 </a>
               </li>
