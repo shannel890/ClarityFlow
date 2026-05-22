@@ -55,7 +55,7 @@ const views = [
 
 export default function WorkflowScenariosSection() {
   return (
-    <section className="bg-[#FAFAF8] px-6 py-16 md:px-10">
+    <section id="workflow-scenarios" className="bg-[#FAFAF8] px-6 py-16 md:px-10">
       <div className="mx-auto max-w-6xl space-y-10">
         <div className="max-w-3xl">
           <p className="mb-3 text-[11px] font-medium uppercase tracking-[0.18em] text-teal-500">

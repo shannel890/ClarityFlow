@@ -14,7 +14,7 @@ const cardFade = {
 
 export default function Hero() {
   return (
-    <section className="bg-[#FAFAF8] px-6 py-20 md:px-10">
+    <section id="product" className="bg-[#FAFAF8] px-6 py-20 md:px-10">
       <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-2 md:items-center">
 
         {/* Left — copy */}

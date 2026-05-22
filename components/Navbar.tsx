@@ -26,22 +26,34 @@ export default function Navbar() {
         {/* Nav links */}
         <nav className="hidden items-center gap-7 md:flex">
           <a
-            href="#features"
+            href="#product"
             className="text-sm text-stone-600 transition-colors hover:text-stone-900"
           >
-            Features
+            Product
           </a>
           <a
-            href="#howitworks"
+            href="#workflow-scenarios"
             className="text-sm text-stone-600 transition-colors hover:text-stone-900"
           >
-            How it works
+            Workflow Scenarios
           </a>
           <a
-            href="#pricing"
+            href="#systems-work"
             className="text-sm text-stone-600 transition-colors hover:text-stone-900"
           >
-            Pricing
+            Systems Work
+          </a>
+          <a
+            href="#about"
+            className="text-sm text-stone-600 transition-colors hover:text-stone-900"
+          >
+            About
+          </a>
+          <a
+            href="#contact"
+            className="text-sm text-stone-600 transition-colors hover:text-stone-900"
+          >
+            Contact
           </a>
         </nav>
 

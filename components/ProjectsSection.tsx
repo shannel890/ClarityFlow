@@ -3,31 +3,36 @@ export default function ProjectsSection() {
     {
       title: "ClarityFlow",
       summary:
-        "Clinical workflow orchestration platform that helps care teams coordinate notes, tasks, and follow-ups with stronger operational visibility.",
-      badge: "Flagship project",
+        "Workflow orchestration infrastructure exploration focused on clinician cockpit design, day-start alignment, and follow-up visibility in healthcare settings.",
+      badge: "Core systems concept",
     },
     {
       title: "Remote HealthAI Role Matcher",
       summary:
-        "A Python-based workflow pipeline that collects, filters, scores, and ranks remote healthcare AI roles.",
+        "Healthcare workflow pipeline experiment in structured signal collection, ranking logic, and operational handoff visibility.",
       githubUrl:
         "https://github.com/arapkirui513-hub/remote-healthai-role-matcher",
     },
     {
       title: "Clinically Clear Copy",
       summary:
-        "A healthcare UX writing and communication systems portfolio focused on clarity, trust, and operational usability.",
+        "Healthcare communication systems exploration focused on clarity, trust, and operational workflow usability.",
       linkUrl: "https://shannel890.github.io/wizz1/",
       linkLabel: "View Writing Portfolio",
     },
   ];
 
   return (
-    <section id="projects" className="bg-white px-6 py-14 md:px-10">
+    <section id="systems-work" className="bg-white px-6 py-14 md:px-10">
       <div className="mx-auto max-w-6xl space-y-8">
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
-          Featured Projects
+          Systems Work
         </h2>
+        <p className="max-w-3xl text-sm leading-relaxed text-slate-700">
+          Related workflow concepts and healthcare systems explorations that
+          inform ClarityFlow&apos;s orchestration approach, operational visibility
+          model, and care-team coordination design.
+        </p>
 
         <div className="grid gap-4 md:grid-cols-3">
           {projects.map((project) => (

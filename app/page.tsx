@@ -1,4 +1,6 @@
+import AboutSection from "@/components/AboutSection";
 import ClinicalStackSection from "@/components/ClinicalStackSection";
+import ContactSection from "@/components/ContactSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -11,6 +13,7 @@ import ProblemSection from "@/components/ProblemSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SolutionSection from "@/components/SolutionSection";
 import TrustSection from "@/components/TrustSection";
+import WhyWorkflowIntelligenceSection from "@/components/WhyWorkflowIntelligenceSection";
 import WorkflowScenariosSection from "@/components/WorkflowScenariosSection";
 
 export default function Home() {
@@ -20,7 +23,7 @@ export default function Home() {
       <Hero />
       <ClinicalStackSection />
       <WorkflowScenariosSection />
-      <ProjectsSection />
+      <WhyWorkflowIntelligenceSection />
       <ProblemSection />
       <SolutionSection />
       <FeaturesSection />
@@ -29,6 +32,9 @@ export default function Home() {
       <HowItWorks />
       <PilotReadinessSection />
       <PricingSection />
+      <ProjectsSection />
+      <AboutSection />
+      <ContactSection />
       <Footer />
     </main>
   );

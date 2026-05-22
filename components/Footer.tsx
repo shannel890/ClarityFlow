@@ -14,22 +14,27 @@ export default function Footer() {
             <p className="text-sm font-medium text-slate-900">Navigation</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>
-                <a href="#" className="hover:text-slate-900">
-                  Home
+                <a href="#product" className="hover:text-slate-900">
+                  Product
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-900">
-                  Features
+                <a href="#workflow-scenarios" className="hover:text-slate-900">
+                  Workflow Scenarios
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-900">
-                  Pricing
+                <a href="#systems-work" className="hover:text-slate-900">
+                  Systems Work
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-900">
+                <a href="#about" className="hover:text-slate-900">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="hover:text-slate-900">
                   Contact
                 </a>
               </li>
