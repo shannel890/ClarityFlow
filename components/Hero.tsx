@@ -24,6 +24,14 @@ export default function Hero() {
           animate="show"
           variants={fadeUp}
         >
+          <div className="space-y-1">
+            <p className="font-serif text-lg text-teal-600">
+              Clarity<span className="text-stone-900">Flow</span>
+            </p>
+            <p className="text-xs text-stone-500">
+              Clinical workflow systems concept by Kevin Kirui
+            </p>
+          </div>
           <p className="text-xs font-medium uppercase tracking-[0.15em] text-teal-400">
             Clinical workflow orchestration
           </p>

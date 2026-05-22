@@ -23,6 +23,20 @@ export default function WhyWorkflowIntelligenceSection() {
           maintaining reliable execution across fragmented systems, distributed
           teams, and time-sensitive follow-up obligations.
         </p>
+        <div className="max-w-4xl rounded-lg border border-stone-200 bg-white p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-teal-500">
+            Intended operational outcomes
+          </p>
+          <p className="mt-2 text-sm font-medium text-stone-700">
+            Designed to support:
+          </p>
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-stone-700 md:text-base">
+            <li>reduced after-hours documentation burden</li>
+            <li>improved follow-up visibility</li>
+            <li>clearer task ownership</li>
+            <li>fewer coordination blind spots</li>
+          </ul>
+        </div>
         <p className="max-w-4xl text-sm leading-relaxed text-stone-700 md:text-base">
           ClarityFlow is positioned as workflow orchestration infrastructure, an
           operational visibility layer, and a coordination system for clinical
