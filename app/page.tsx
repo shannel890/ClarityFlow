@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import OutcomesSection from "@/components/OutcomesSection";
 import PricingSection from "@/components/PricingSection";
 import ProblemSection from "@/components/ProblemSection";
+import ProjectsSection from "@/components/ProjectsSection";
 import SolutionSection from "@/components/SolutionSection";
 import TrustSection from "@/components/TrustSection";
 
@@ -14,6 +15,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <ProjectsSection />
       <ProblemSection />
       <SolutionSection />
       <FeaturesSection />
