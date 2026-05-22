@@ -8,16 +8,16 @@ const solutions = [
     desc: "Bring notes, follow-ups, labs, tasks, and communication into one organized workflow layer.",
   },
   {
-    title: "AI-assisted documentation",
-    desc: "Reduce repetitive charting work with structured summaries and faster clinical note generation.",
-  },
-  {
     title: "Workflow coordination",
     desc: "Track pending actions, handoffs, and follow-ups without relying on fragmented inbox workflows.",
   },
   {
     title: "Operational visibility",
     desc: "Surface bottlenecks, delays, and workload patterns across care operations in real time.",
+  },
+  {
+    title: "AI-assisted documentation",
+    desc: "Reduce repetitive charting work with structured summaries and faster clinical note generation.",
   },
 ];
 

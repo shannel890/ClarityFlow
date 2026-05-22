@@ -1,3 +1,4 @@
+import ClinicalStackSection from "@/components/ClinicalStackSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <ClinicalStackSection />
       <ProjectsSection />
       <ProblemSection />
       <SolutionSection />

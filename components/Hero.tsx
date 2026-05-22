@@ -28,25 +28,26 @@ export default function Hero() {
             AI-powered clinical workflow
           </p>
           <h1 className="font-serif text-5xl leading-[1.1] tracking-tight text-stone-900 md:text-[52px]">
-            Spend less time charting, more time with{" "}
-            <em className="italic text-teal-600">patients.</em>
+            A clinician workflow cockpit for less after-hours charting and fewer
+            missed follow-ups.
           </h1>
           <p className="max-w-md text-base leading-relaxed text-stone-600 md:text-[17px]">
-            ClarityFlow organizes clinical notes, tasks, and follow-ups into one
-            AI-assisted layer — so care teams stay focused on what matters.
+            ClarityFlow sits on top of your EHR, inbox, scheduling tools, and
+            follow-up workflows to organize clinical work into one operational
+            layer for care teams.
           </p>
           <div className="flex flex-wrap gap-3 pt-1">
             <button
               type="button"
               className="rounded-lg bg-teal-600 px-6 py-3 text-sm font-medium text-white transition-all hover:-translate-y-px hover:bg-teal-800"
             >
-              Start free trial
+              Book a workflow walkthrough
             </button>
             <button
               type="button"
               className="rounded-lg border border-stone-200 bg-transparent px-5 py-3 text-sm font-medium text-stone-600 transition-colors hover:border-stone-400 hover:text-stone-900"
             >
-              Watch overview →
+              View workflow scenarios
             </button>
           </div>
         </motion.div>
@@ -121,6 +122,31 @@ export default function Hero() {
             </div>
           </div>
         </motion.div>
+      </div>
+      <div className="mx-auto mt-12 max-w-6xl rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
+        <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-teal-500">
+          Who it’s for
+        </p>
+        <p className="mt-3 text-sm leading-relaxed text-stone-600 md:text-base">
+          Built for clinic managers, care coordination leads, physician
+          champions, and outpatient teams managing high-volume documentation,
+          follow-ups, and handoffs.
+        </p>
+        <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            "Clinic managers",
+            "Care coordination leads",
+            "Physician champions",
+            "Outpatient specialty teams",
+          ].map((audience) => (
+            <div
+              key={audience}
+              className="rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-sm font-medium text-stone-700"
+            >
+              {audience}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
