@@ -10,6 +10,8 @@ export default function ProjectsSection() {
       title: "Remote HealthAI Role Matcher",
       summary:
         "A Python-based workflow pipeline that collects, filters, scores, and ranks remote healthcare AI roles.",
+      githubUrl:
+        "https://github.com/arapkirui513-hub/remote-healthai-role-matcher",
     },
     {
       title: "Clinically Clear Copy",
@@ -47,6 +49,17 @@ export default function ProjectsSection() {
               <p className="mt-3 text-sm leading-relaxed text-slate-700">
                 {project.summary}
               </p>
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View ${project.title} on GitHub (opens in a new tab)`}
+                  className="mt-4 inline-flex items-center rounded-md border border-slate-300 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 transition-colors duration-200 hover:border-teal-200 hover:bg-teal-50 hover:text-teal-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300 focus-visible:ring-offset-2"
+                >
+                  View GitHub
+                </a>
+              )}
             </article>
           ))}
         </div>
