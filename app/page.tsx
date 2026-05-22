@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Navbar from "@/components/Navbar";
 import OutcomesSection from "@/components/OutcomesSection";
+import PilotReadinessSection from "@/components/PilotReadinessSection";
 import PricingSection from "@/components/PricingSection";
 import ProblemSection from "@/components/ProblemSection";
 import ProjectsSection from "@/components/ProjectsSection";
@@ -26,6 +27,7 @@ export default function Home() {
       <OutcomesSection />
       <TrustSection />
       <HowItWorks />
+      <PilotReadinessSection />
       <PricingSection />
       <Footer />
     </main>

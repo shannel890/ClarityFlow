@@ -56,6 +56,11 @@ export default function Footer() {
         <p className="text-sm text-slate-600">
           Built to reduce clinical workload and improve focus on patient care.
         </p>
+        <p className="text-sm text-slate-600">
+          Created by a biomedical engineer working at the intersection of
+          clinical operations, workflow architecture, and AI-assisted healthcare
+          tooling.
+        </p>
       </div>
     </footer>
   );

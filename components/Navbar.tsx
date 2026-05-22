@@ -50,7 +50,7 @@ export default function Navbar() {
           type="button"
           className="rounded-md bg-teal-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-teal-800"
         >
-          Start free trial
+          Request a workflow pilot
         </button>
       </div>
     </header>
